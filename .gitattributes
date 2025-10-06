@@ -1,0 +1,31 @@
+# Force GitHub Linguist to recognize Dart as the main language
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+
+# Ignore all native and build files in any subdirectory
+**/android/** linguist-detectable=false
+**/ios/** linguist-detectable=false
+**/linux/** linguist-detectable=false
+**/macos/** linguist-detectable=false
+**/windows/** linguist-detectable=false
+**/build/** linguist-detectable=false
+
+# Ignore common native file types
+*.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.cc linguist-detectable=false
+*.h linguist-detectable=false
+*.kt linguist-detectable=false
+*.swift linguist-detectable=false
+*.gradle linguist-detectable=false
+*.m linguist-detectable=false
+*.mm linguist-detectable=false
+*.bat linguist-detectable=false
+*.sh linguist-detectable=false
+*.xml linguist-detectable=false
+*.yaml linguist-detectable=false
+*.yml linguist-detectable=false
+*.json linguist-detectable=false
+*.txt linguist-detectable=false
